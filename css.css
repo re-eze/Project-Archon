@@ -52,7 +52,7 @@ font-style: italic;
 }
 
 a:link {
-    color: #cbd3a2;
+    color: rgb(255,194,85);
     background-color: transparent;
     text-decoration: none;
   }
@@ -79,7 +79,7 @@ margin-right: 10px;
 }
 
 a{
-color: rgb(115, 69, 223);
+color: rgb(236, 207, 42);
 text-decoration: none;
 }
 
