@@ -2,31 +2,31 @@ html, body{
 font-family: Arial, sans-serif;
 margin: 0;
 /* background-color: rgb(161,144,123, .2); */
-background-image: url(pictures/bg.png);
+background-image: url('pictures/bg.png');
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
 background-attachment: fixed;
-
 }
 
 header{
-background-color: rgba(100, 80, 69, 0.851);
-padding: 40px;
+background-color: rgba(100, 80, 69, 0.7);
+padding: 30px;
 text-align: center;
 }
 
 h1{
 font-family: 'Times New Roman', Times, serif;
-font-size: 90px;
+font-size: 80px;
 font-weight: 1000;
 color: rgb(220, 214, 214);
 }
 
 header img{
 border-radius: 360px;
-width: 500px;
+width: 380px;
 border: 24px solid rgb(151,129,105, .2);
+filter: contrast(125%);
 }
 
 .content{
@@ -39,10 +39,18 @@ font-size: 28px;
 color: #c8c4bd;
 }
 
-video.big-image{
+/*.content p{
+  text-indent: 40px;
+  text-align: left;
+} */
+
+img.big-image{
 display: block;
 width: 850px;
 height: auto;
+filter: drop-shadow(10px 10px 5px rgb(49,24,34));
+
+
 
 }
 p.caption{
