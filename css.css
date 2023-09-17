@@ -94,7 +94,7 @@ text-decoration: none;
 footer{
 margin-top: 20px;
 padding: 40px 20px;
-background-color: #b1b2a4;
+background-color: rgb(202,202,199);
 }
 
 footer ul{
@@ -107,4 +107,8 @@ footer ul li{
 display: inline-block;
 margin: 0 5px;
 color: #636656;
+}
+
+footer a{
+  color: rgb(159, 162, 13);
 }
